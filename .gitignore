@@ -1,0 +1,46 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# SQLite database
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/history.json
+
+# Original and generated files
+files/original/*
+files/encrypted/*
+files/decrypted/*
+
+# Keep empty folders in Git
+!files/original/.gitkeep
+!files/encrypted/.gitkeep
+!files/decrypted/.gitkeep
+
+# React dependencies
+frontend/node_modules/
+
+# React production build
+frontend/dist/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
